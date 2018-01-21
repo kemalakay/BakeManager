@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Gear.unity
+    guid: bc45f2ce0c4267845ab5cb02cb0cb39e
+  - enabled: 1
+    path: Assets/Scenes/Water.unity
+    guid: c8a92b92f431d724c8ac7a2d95f0da0d
+  - enabled: 1
+    path: Assets/Scenes/Lamp.unity
+    guid: 62e2fc2efd059f448a922b804099cfd8
+  - enabled: 1
+    path: Assets/Scenes/AdditiveLoading.unity
+    guid: dc43a9a9907dc6f47bc50e076d468ed3
+  m_configObjects: {}
