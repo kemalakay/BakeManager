@@ -25,7 +25,9 @@ Open the example project provided in the repository
 
 #### Other useful features in Baking Manager: 
 * **Bake Option** - There are two options: Individual and Group. Either you can bake your scenes individually, one by one, or you can choose `Group` option and additively load all the scenes in the list in order to bake them together (lighting settings of active scene is used to generate lighting).
+
 * **Print timing** - When this option is enabled, it prints the baking times of your scenes to a text and CSV file. In production, this can prove useful if it takes a lot of time to generate the lighting. Then, you can see how long it takes with your current setup and adjust your settings if needed. Since lighting setup can be different per every scene, this can allow you to take more informed decisions.
+
 * **Log Debug Values** - This option can be enabled if you want to see what's going on behind the scenes. The action taken in every step is printed to console log.
 
 ### Lighting Configuration
