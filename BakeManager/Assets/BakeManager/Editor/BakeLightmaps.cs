@@ -187,10 +187,7 @@ public class BakeLightmaps : EditorWindow
             Lightmapping.completed = null;
             Lightmapping.completed = SaveScene;
             Lightmapping.completed += BakeNewScene;
-            if (display == BakeOptions.Individual)
-            {
-                SetScenes();
-            }
+            SetScenes();
             BakeNewScene();
         }
         else
